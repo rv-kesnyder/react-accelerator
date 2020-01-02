@@ -1,0 +1,44 @@
+aside {
+    display: none;
+}
+
+aside.hasSidebar {
+    display: block;
+    width: 25%;
+    float: right;
+    background-color: #F8F8F8;
+    padding-top: 40px;
+    position: relative;
+}
+
+aside .closeBox {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    line-height: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+aside img {
+    display: block;
+    margin: 10px auto;
+}
+
+aside h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    border-bottom: 3px double black;
+    padding-bottom: 20px;
+}

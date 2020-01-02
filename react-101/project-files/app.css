@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Aleo:400,400i|Poppins:700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+.header-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #100007;
+  letter-spacing: 1px;
+}
+
+.body-text {
+  font-family: 'Aleo', serif;
+  font-weight: 400;
+  color: #535353;
+}
+
+.muted {
+  font-size: .8rem;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.layout {
+  display: flex;
+  align-items: stretch;
+}
+
+.sidebar, main {
+  padding: 0 1rem;
+  margin: 1rem 0;
+  min-height: 400px;
+}
+
+.sidebar {
+  border-right: 1px solid #ccc;
+  width: 320px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: .5rem;
+  margin: 1rem auto;
+}
+
+.sidebar li.active {
+  background: #F6F6F6;
+}
+
+main {
+  flex: 1;
+}
+
+main header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-group .button {
+  margin-left: 1rem;
+}
+
+article {
+  max-width: 640px;
+  margin: 1rem auto;
+}
+
+/* Button Styling */
+.button {
+  border: none;
+  border-radius: 0;
+  padding: .5rem 1rem;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  background: #535353;
+}
+
+.button.block {
+  display: block;
+  width: 100%;
+}
+
+.button.primary {
+  background: #3FA7D6;
+}
+
+.button.secondary {
+  background: #EE6352;
+}
+
+.button.tertiary {
+  background: #59CD90;
+}

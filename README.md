@@ -11,7 +11,7 @@ This should be accomplished using as many existing resources available to us as 
 3. React 201
 4. React Router
 5. React Styling
-6. React Hooks
+6. [React Hooks](react-hooks)
 7. Redux 101
 8. Redux 201
 9. React-Typescript
