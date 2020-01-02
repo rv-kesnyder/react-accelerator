@@ -13,8 +13,8 @@
 All portions of this section should be watched other than the legacy content that's marked as such. 
 
 ## Supplemental Material
-* Hooks overview - https://reactjs.org/docs/hooks-overview.html
-* Examples of Hooks in action - https://www.robinwieruch.de/react-function-component
+* Hooks overview – https://reactjs.org/docs/hooks-overview.html
+* Examples of Hooks in action – https://www.robinwieruch.de/react-function-component
 
 ## Project
 For this project, you will need to rewrite the `Aside` component in the Giphy Explorer project from the React 102 course to still manage state with Hooks.

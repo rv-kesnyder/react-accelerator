@@ -7,7 +7,7 @@ This should be accomplished using as many existing resources available to us as 
 
 ## Directory
 1. [React 101](react-101)
-2. React 102
+2. [React 102](react-102)
 3. React 201
 4. React Router
 5. React Styling
