@@ -6,7 +6,7 @@ This should be accomplished using as many existing resources available to us as 
 [For online course content, please refer to this Udemy course.](https://redventures.udemy.com/react-the-complete-guide-incl-redux/)
 
 ## Directory
-1. React 101
+1. [React 101](react-101)
 2. React 102
 3. React 201
 4. React Router
