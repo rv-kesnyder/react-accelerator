@@ -7,7 +7,7 @@
 * useEffect Hook
 * Writing your own Hooks
 
-## Online Course
+## Online Course Content
 
 ### Section 26 – React Hooks 
 All portions of this section should be watched other than the legacy content that's marked as such. 
