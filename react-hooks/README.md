@@ -8,6 +8,7 @@
 * Writing your own Hooks
 
 ## Online Course Content
+[React - The Complete Guide (incl Hooks, React Router, Redux)](https://redventures.udemy.com/react-the-complete-guide-incl-redux/)
 
 ### Section 26 – React Hooks 
 All portions of this section should be watched other than the legacy content that's marked as such. 

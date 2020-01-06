@@ -1,0 +1,25 @@
+.filterContainer {
+    background-color: #ccc;
+    -webkit-box-shadow: inset 0px 15px 9px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 15px 9px -10px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 15px 9px -10px rgba(0,0,0,0.75);  
+    border-bottom: #333;
+}
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.filter label {
+    margin-right: 5px;
+}
+.filter div {
+    margin-right: 15px;
+}
+
+

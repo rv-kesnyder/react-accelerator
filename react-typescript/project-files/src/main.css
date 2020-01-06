@@ -1,0 +1,27 @@
+main {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+main.hasSidebar {
+    margin: 0;
+    float: left;
+}
+
+main p {
+    margin-bottom: 20px;
+}
+
+.imageBox {
+    display: inline-block;
+}
+
+img {
+    margin: 5px;
+    border: 1px solid 
+}
+
+.anonymous {
+    text-indent: -9999px;
+}

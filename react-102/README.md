@@ -9,6 +9,7 @@
 * Debugging
 
 ## Online Course Content
+[React - The Complete Guide (incl Hooks, React Router, Redux)](https://redventures.udemy.com/react-the-complete-guide-incl-redux/)
 
 ### Section 6 – Debugging React Apps
 Debugging

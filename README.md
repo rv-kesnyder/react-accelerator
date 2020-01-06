@@ -6,7 +6,7 @@ The goal of the React Accelerator is to put together a set of materials that can
 This will be accomplished using as many existing resources available to us as possible, which will then be supplemented with project work that can be completed and reviewed at a pace set by the person working through the material.
 
 ## How does it work?
-Everything will be done via online course content found within [this Udemy course](https://redventures.udemy.com/react-the-complete-guide-incl-redux/) alongside projects, supplemental reading material, and guided tutorials.
+Everything will be done via online course content found within various Udemy courses alongside projects, supplemental reading material, and guided tutorials.
 
 If you have no previous experience with React, it's recommended that you start with React 101, but you can get a better idea of where to start by digging into the folders for each section and checking the requirements in the readme file.
 
@@ -21,5 +21,5 @@ Once you've completed the corresponding project for a section, push it up to Git
 6. [React Hooks](react-hooks)
 7. Redux 101 (Coming soon!)
 8. Redux 201 (Coming soon!)
-9. React-Typescript 
-10. React-Redux-Typescript
+9. [React-Typescript](react-typescript)
+10. React-Redux-Typescript (Coming soon!)

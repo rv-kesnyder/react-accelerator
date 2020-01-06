@@ -14,11 +14,12 @@
 * Rendering lists
 
 ## Online Course Content
+[React - The Complete Guide (incl Hooks, React Router, Redux)](https://redventures.udemy.com/react-the-complete-guide-incl-redux/)
 
-### Section 1 – Getting Started (39m)
+### Section 1 – Getting Started
 * What is React and why should we use it?
 
-### Section 3 – Understanding the Base Features & Syntax (2h 22m)
+### Section 3 – Understanding the Base Features & Syntax
 * JSX
 * Class components
 * Functional components
@@ -26,7 +27,7 @@
 * Props
 * Event handling
 
-### Section 4 – Working with Lists and Conditionals (1h 1m)
+### Section 4 – Working with Lists and Conditionals
 * Conditional rendering
 * Rendering lists
 
