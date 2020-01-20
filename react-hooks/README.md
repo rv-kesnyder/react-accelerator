@@ -5,7 +5,12 @@
 ## Learning Objectives
 * useState Hook
 * useEffect Hook
-* Writing your own Hooks
+* Writing your own hooks
+* Leverage react-router to show different content based on the url
+* Understand how the Switch component affects which Routes render based on the url
+* Understand how Link components differ from HTML anchor tags
+* Know when to use the different routing-related props
+* Know how to extract and parse query parameters
 
 ## Online Course Content
 [React - The Complete Guide (incl Hooks, React Router, Redux)](https://redventures.udemy.com/react-the-complete-guide-incl-redux/)
