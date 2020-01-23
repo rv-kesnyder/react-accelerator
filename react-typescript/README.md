@@ -36,7 +36,7 @@ The first thing you'll need to do is make sure your type definitions are up to d
 
 Secondly, for Typescript to work correctly, you will need to rename your `.js` file to a `.ts` file or, if you have JSX, rename your `.jsx` file to a `.tsx` file.
 
-The main thing you'll need to focus on is taking your `App` component, make sure you're using the constructor method, and creating an interface for your `App State` and `App Props` (if applicable). Try to have as few 'any' type variables as possible and no errors.
+The main thing you'll need to focus on is taking your `App` component, make sure you're using the constructor method, and creating an interface for your `App State` and `App Props` (if applicable). Try to have as few `any` type variables as possible and no errors.
 
 ## Optional Typescript Crash Course
 
