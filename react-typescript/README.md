@@ -32,7 +32,10 @@ For this project, you will need to implement Typescript in your `App` file in th
 
 If you have not completed the React 102 section of the Accelerator, the base files for this project can be found in the `react-typescript/project-files` folder. If you have completed the React 102 project, it's *highly recommended* that you modify your own project for this.
 
-The first thing you'll need to do is make sure your type definitions are up to date by running `npm install @types/react @types/react-dom`.
+The first thing you'll need to do is make sure your type definitions are up to date by running: 
+```c
+npm install @types/react @types/react-dom
+```
 
 Secondly, for Typescript to work correctly, you will need to rename your `.js` file to a `.ts` file or, if you have JSX, rename your `.jsx` file to a `.tsx` file.
 
@@ -56,9 +59,14 @@ npm install -g typescript
 npm install -g ts-node
 ```
 
-To compile your Javascript into Typescript, type `tsc` and then your file name into the terminal. 
-ex. `tsc index.ts`
+To compile your Javascript into Typescript, type `tsc` and then your file name into the terminal. For example:
+```c
+tsc index.ts
+```
 
-This will create a file named `index.js`, which you can run by typing `node index.js` into the terminal.
+This will create a file named `index.js`, which you can run with the command `node index.js`.
 
-In order to turn these two steps into one, we've installed the `ts-node` package. You can compile *and* run your code by typing `ts-node index.ts` into the terminal.
+In order to turn these two steps into one, we've installed the `ts-node` package. You can compile *and* run your code by typing the following into the terminal:
+```c
+ts-node index.ts
+```
