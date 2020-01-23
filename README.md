@@ -16,7 +16,7 @@ Once you've completed the corresponding project for a section, push it up to Git
 1. [React 101](react-101)
 2. [React 102](react-102)
 3. React 201 (Coming soon!)
-4. React Router (Coming soon!)
+4. [React Router](react-router)
 5. React Styling (Coming soon!)
 6. [React Hooks](react-hooks)
 7. Redux 101 (Coming soon!)
