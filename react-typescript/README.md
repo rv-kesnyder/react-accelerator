@@ -25,8 +25,20 @@ Parts *254. React and Redux Overview* through *261. Functional Components* shoul
 * Typescript documentation – https://www.typescriptlang.org/docs/home.html
 * Typescript 101 - https://thecurve.redventures.com/share/asset/view/799
 * Typescript Deep Dive - https://basarat.gitbooks.io/typescript/docs/jsx/react.html
+* React with TypeScript cheat sheet – https://github.com/TypeScript-cheatsheets/react-TypeScript-cheatsheet
 
-## Typescript Crash Course
+## Project
+For this project, you will need to implement Typescript in your `App` file in the Giphy Explorer project from the React 102 course.
+
+If you have not completed the React 102 section of the Accelerator, the base files for this project can be found in the `react-typescript/project-files` folder. If you have completed the React 102 project, it's *highly recommended* that you modify your own project for this.
+
+The first thing you'll need to do is make sure your type definitions are up to date by running `npm install @types/react @types/react-dom`.
+
+Secondly, for Typescript to work correctly, you will need to rename your `.js` file to a `.ts` file or, if you have JSX, rename your `.jsx` file to a `.tsx` file.
+
+The main thing you'll need to focus on is taking your `App` component, make sure you're using the constructor method, and creating an interface for your `App State` and `App Props` (if applicable). Try to have as few 'any' type variables as possible and no errors.
+
+## Optional Typescript Crash Course
 
 ### What is Typescript?
 The definition from the official website says: “a typed superset of Javascript” but it assumes you know what a “superset” is and what “typed” means. Instead to keep things simple, you can think of Typescript as of “a layer on top” of Javascript.
@@ -49,25 +61,26 @@ This will create a file named `index.js`, which you can run by typing `node inde
 
 In order to turn these two steps into one, we've installed the `ts-node` package. You can compile *and* run your code by typing `ts-node index.ts` into the terminal.
 
-### Tutorials
-Follow along the files inside of the `react-typescript/typescript-crash-course` folder for tutorials on various Typescript concepts.
+### Types
+[A list of Data Types](https://www.w3schools.com/js/js_datatypes.asp)
 
-1. `1-variables.ts` will look at how to assign variables data types.
-2. `2-functions.ts` will show us how to tell Typescript what types we're passing into the function and what types we're expecting out.
-3. `3-objects.ts` gives us a look at how to define the types within an object.
-4. `4-arrays.ts` helps us define arrays and nested arrays.
-5. `5-tuples.ts` covers tuples and use cases.
-6. `6-props.tsx` starts implementing Typescript into React with props.
-7. `7-state.tsx` will deep dive a bit into state and how React & TS initializes state.
-8. `8-funcComponents.tsx` is a quick peek into to annotating functional components.
+#### Javascript's Data Types
+- String
+- Number
+- Boolean
+- Undefined and Null
+- Function
+- Object (arrays in JS are considered objects)
 
-## Project
-For this project, you will need to implement Typescript in your `App` file in the Giphy Explorer project from the React 102 course.
+#### Additional Typescript types
 
-If you have not completed the React 102 section of the Accelerator, the base files for this project can be found in the `react-typescript/project-files` folder. If you have completed the React 102 project, it's *highly recommended* that you modify your own project for this.
-
-The first thing you'll need to do is make sure your type definitions are up to date by running `npm install @types/react @types/react-dom`.
-
-Secondly, for Typescript to work correctly, you will need to rename your `.js` file to a `.ts` file or, if you have JSX, rename your `.jsx` file to a `.tsx` file.
-
-The main thing you'll need to focus on is taking your `App` component, make sure you're using the constructor method, and creating an interface for your `App State` and `App Props` (if applicable). Try to have as few 'any' type variables as possible and no errors.
+- [Array](https://www.typescriptlang.org/docs/handbook/basic-types.html#array)
+- [Tuple](https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple)
+- [Enum](https://www.typescriptlang.org/docs/handbook/basic-types.html#enum)
+- [Any](https://www.typescriptlang.org/docs/handbook/basic-types.html#any) 
+- [Void](https://www.typescriptlang.org/docs/handbook/basic-types.html#void) 
+- [Null](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined)
+- [Never](https://www.typescriptlang.org/docs/handbook/basic-types.html#never) 
+- [Object](https://www.typescriptlang.org/docs/handbook/basic-types.html#object) (
+- Union 
+- Type assertions
