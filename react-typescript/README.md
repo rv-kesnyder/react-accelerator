@@ -64,7 +64,10 @@ To compile your Javascript into Typescript, type `tsc` and then your file name i
 tsc index.ts
 ```
 
-This will create a file named `index.js`, which you can run with the command `node index.js`.
+This will create a file named `index.js`, which you can run with the following command:
+```c
+node index.js
+```
 
 In order to turn these two steps into one, we've installed the `ts-node` package. You can compile *and* run your code by typing the following into the terminal:
 ```c
