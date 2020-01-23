@@ -36,7 +36,7 @@ The first thing you'll need to do is make sure your type definitions are up to d
 
 Secondly, for Typescript to work correctly, you will need to rename your `.js` file to a `.ts` file or, if you have JSX, rename your `.jsx` file to a `.tsx` file.
 
-The main thing you'll need to focus on is taking your `App` component, make sure you're using the constructor method, and creating an interface for your `App State` and `App Props` (if applicable). Try to have as few `any` type variables as possible and no errors.
+The main thing you'll need to focus on is taking your `App` component, make sure you're using the constructor method, and creating an interface for your `App State` and `App Props` (if applicable). Try to have as few `any type variables as possible and no errors.
 
 ## Optional Typescript Crash Course
 
@@ -60,27 +60,3 @@ ex. `tsc index.ts`
 This will create a file named `index.js`, which you can run by typing `node index.js` into the terminal.
 
 In order to turn these two steps into one, we've installed the `ts-node` package. You can compile *and* run your code by typing `ts-node index.ts` into the terminal.
-
-### Types
-[A list of Data Types](https://www.w3schools.com/js/js_datatypes.asp)
-
-#### Javascript's Data Types
-- String
-- Number
-- Boolean
-- Undefined and Null
-- Function
-- Object (arrays in JS are considered objects)
-
-#### Additional Typescript types
-
-- [Array](https://www.typescriptlang.org/docs/handbook/basic-types.html#array)
-- [Tuple](https://www.typescriptlang.org/docs/handbook/basic-types.html#tuple)
-- [Enum](https://www.typescriptlang.org/docs/handbook/basic-types.html#enum)
-- [Any](https://www.typescriptlang.org/docs/handbook/basic-types.html#any) 
-- [Void](https://www.typescriptlang.org/docs/handbook/basic-types.html#void) 
-- [Null](https://www.typescriptlang.org/docs/handbook/basic-types.html#null-and-undefined)
-- [Never](https://www.typescriptlang.org/docs/handbook/basic-types.html#never) 
-- [Object](https://www.typescriptlang.org/docs/handbook/basic-types.html#object) (
-- Union 
-- Type assertions
