@@ -51,8 +51,10 @@ But Javascript engines are not able to read Typescript code so any Typescript fi
 
 ### Installation
 To install Typescript, run the following commands in the terminal:
-`npm install -g typescript`
-`npm install -g ts-node`
+```c
+npm install -g typescript
+npm install -g ts-node
+```
 
 To compile your Javascript into Typescript, type `tsc` and then your file name into the terminal. 
 ex. `tsc index.ts`
